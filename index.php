@@ -72,7 +72,7 @@
 											</h5>
 										</div>
 										<div class="col-12">
-											<p class="text-center text-md-left wow animate__animated animate__fadeInLeft">LuvBuddy is smart sex app that learns what you and your partner enjoy in bed to give you personalized, sex-related inspirations to satisfy each other even more</p>
+											<p class="text-center text-md-left wow animate__animated animate__fadeInLeft">LuvBuddy is a smart sex app that learns what you and your partner enjoy in bed to give you personalized, sex-related inspirations to satisfy each other even more</p>
 										</div>
 									</div>
 								</div>
@@ -124,10 +124,7 @@
 								</div>
 								<div class="col-12 col-md-10">
 									<p class=" wow animate__animated animate__fadeInLeft">
-										LuvBuddy learns what you and your partner enjoy in bed and
-										suggests new positions, stimulation techniques and sex-related
-										ideas based on your liking. Use it next time to have even
-										better sex!
+										Using machine learning and AI, the app is synced with your wearables to monitor your activities and that of your partner during sex. This data is then automatically processed with the individual feedback of either party after sex, to give insights which help to improve the sexual relationship of both parties
 									</p>
 								</div>
 							</div>
