@@ -16,59 +16,45 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 //wow.js
-new WOW().init();
+// new WOW().init();
 
 //swiper-mobile
+
+
+//swiper
 var swiper = new Swiper('.swiper-container', {
-	centeredSlides: true,
+	effect: 'coverflow',
 	grabCursor: true,
-	slidesPerView: 'auto',
+	centeredSlides: true,
+	slidesPerView: 1,
+	spaceBetween: 100,
+	coverflowEffect: {
+		rotate: 0,
+		stretch: 0,
+		depth: 200,
+		modifier: 1,
+		slideShadows: false,
+	},
+	centeredSlides: true,
+	autoplay: {
+		delay: 5000,
+		disableOnInteraction: false,
+	},
 	loop: true,
+	freeMode: true,
+	loopedSlides: 6,
+	pagination: {
+		el: '.swiper-pagination',
+		clickable: true,
+		// renderBullet: function (index, className) {
+		// 	return '<span class="' + className + '">' + (index + 1) + '</span>';
+		// },
+	},
 	navigation: {
 		nextEl: '.swiper-button-next',
 		prevEl: '.swiper-button-prev',
 	},
-	autoplay: {
-		delay: 2500,
-		disableOnInteraction: false,
-	},
-	pagination: {
-		el: '.swiper-pagination',
-		clickable: true,
-	},
 });
-
-//Swiper
-// var swiper = new Swiper('.swiper-container', {
-// 	effect: 'coverflow',
-// 	grabCursor: true,
-// 	centeredSlides: true,
-// 	slidesPerView: 'auto',
-// 	spaceBetween: -80,
-// 	coverflowEffect: {
-// 		rotate: 0,
-// 		stretch: 0,
-// 		depth: 200,
-// 		modifier: 1,
-// 		slideShadows: false,
-// 	},
-// 	centeredSlides: true,
-// 	autoplay: {
-// 		delay: 2500,
-// 		disableOnInteraction: false,
-// 	},
-// 	loop: true,
-// 	freeMode: true,
-// 	loopedSlides: 5,
-// 	pagination: {
-// 		el: '.swiper-pagination',
-// 		clickable: true,
-// 	},
-// 	navigation: {
-// 		nextEl: '.swiper-button-next',
-// 		prevEl: '.swiper-button-prev',
-// 	},
-// });
 
 // Select all links with hashes
 $('a[href*="#"]')

@@ -215,11 +215,11 @@ html {
 		transform: none;
 	}
 	50% {
-		opacity: 0.8;
+		opacity: 0.5;
 		transform: scale(0.8);
 	}
 	100% {
-		opacity: 1.1;
+		opacity: 1.5;
 		transform: none;
 	}
 }

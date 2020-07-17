@@ -72,7 +72,7 @@
 											</h5>
 										</div>
 										<div class="col-12">
-											<p class="text-center text-md-left">Using LuvBuddy innovative AI & ML technology, you can be assured that when you are in bed with your partner, you will both have a session you’ll never forget</p>
+											<p class="text-center text-md-left">LuvBuddy is smart sex app that learns what you and your partner enjoy in bed to give you personalized, sex-related inspirations to satisfy each other even more</p>
 										</div>
 									</div>
 								</div>
@@ -143,45 +143,7 @@
 				</div>
 			</section>
 
-			<section class="features-mobile">
-				<div class="container">
-					<div class="row">
-						<div class="col">
-							<div class="swiper-container row mx-auto">
-								<div class="swiper-wrapper">
-									<div class="swiper-slide">
-										<img src="./assets/images/Phone11-pro-back.svg" alt="" class="mx-auto img-fluid"/>
-									</div>
-									<div class="swiper-slide">
-										<img src="./assets/images/Phone11-pro-back.png" alt="" class="mx-auto img-fluid"/>
-										<p class="">
-											<img src="./assets/images/gift.svg" alt="" /
-											class="mr-3">Explore mutual desiress
-										</p>
-									</div>
-									<div class="swiper-slide">
-										<img src="./assets/images/Phone11-pro-back.svg" alt="" class="mx-auto img-fluid"/>
-									</div>
-									<div class="swiper-slide">
-										<img src="./assets/images/Phone11-pro-back.svg" alt="" class="mx-auto img-fluid"/>
-									</div>
-									<div class="swiper-slide">
-										<img src="./assets/images/Phone11-pro-back.svg" alt="" class="mx-auto img-fluid"/>
-									</div>
-									<div class="swiper-slide">
-										<img src="./assets/images/Phone11-pro-back.svg" alt="" class="mx-auto img-fluid"/>
-									</div>
-								</div>
-								<div class="swiper-pagination"></div>
-								<div class="swiper-button-next"></div>
-								<div class="swiper-button-prev"></div>
-						</div>
-					</div>
-				</div>
-
-			</section>
-
-			<!-- <section class="features">
+				<section class="features">
 				<div class="container">
 					<div class="row d-flex align-items-center">
 						<div class="col-md-5">
@@ -208,7 +170,7 @@
 										<a href="">
 											<p class="">
 												<img src="./assets/images/gift.svg" alt="" /
-												class="mr-3">Explore mutual desiress
+												class="mr-3">Explore mutual desires
 											</p></a
 										>
 									</div>
@@ -249,30 +211,33 @@
 							</div>
 						</div>
 						<div class="col-md-7">
-							<div class="swiper-container row mx-auto">
-								<div class="swiper-wrapper">
+							<div class="swiper-container row">
+								<div class="swiper-wrapper text-center mb-4 pb-5" >
 									<div class="swiper-slide">
-										<img src="./assets/images/Phone11-pro-back.svg" alt="" class="mx-auto img-fluid"/>
+										<img src="./assets/images/X - 2.svg" alt="" class="mx-auto img-fluid"/>
 									</div>
 									<div class="swiper-slide">
-										<img src="./assets/images/Phone11-pro-back.png" alt="" class="mx-auto img-fluid"/>
+										<img src="./assets/images/X - 2.svg" alt="" class="mx-auto img-fluid"/>
 									</div>
 									<div class="swiper-slide">
-										<img src="./assets/images/Phone11-pro-back.svg" alt="" class="mx-auto img-fluid"/>
+										<img src="./assets/images/X - 2.svg" alt="" class="mx-auto img-fluid"/>
 									</div>
 									<div class="swiper-slide">
-										<img src="./assets/images/Phone11-pro-back.svg" alt="" class="mx-auto img-fluid"/>
+										<img src="./assets/images/X - 2.svg" alt="" class="mx-auto img-fluid"/>
 									</div>
 									<div class="swiper-slide">
-										<img src="./assets/images/Phone11-pro-back.svg" alt="" class="mx-auto img-fluid"/>
+										<img src="./assets/images/X - 2.svg" alt="" class="mx-auto img-fluid"/>
 									</div>
-								</div> -->
+									<div class="swiper-slide">
+										<img src="./assets/images/X - 2.svg" alt="" class="mx-auto img-fluid"/>
+									</div>
+								</div>
 								<!-- Add Pagination -->
-								<!-- <div class="swiper-pagination"></div>
+								<div class="swiper-pagination"></div>
 
 								<div class="swiper-button-prev"></div>
 								<div class="swiper-button-next"></div>
-							</div> -->
+							</div>
 							<!-- <div class="row mx-auto">
 								<img
 									src="./assets/images/Phone11-pro-back.svg"
@@ -280,10 +245,10 @@
 									class="mx-auto img-fluid"
 								/>
 							</div> -->
-						<!-- </div>
+						</div>
 					</div>
 				</div>
-			</section> -->
+			</section>
 
 			<section class="countdown-timer">
 				<div class="container">

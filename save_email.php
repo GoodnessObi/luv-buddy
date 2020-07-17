@@ -22,7 +22,13 @@
 			if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 				$errors['email'] = "email must be a valid email address";
 			}
+      
         }
+
+   //  	mysqli_query('INSERT INTO ...');
+			// if (mysqli_errno() == 1062) {
+			//     print 'no way!';
+			// }
         
         if (array_filter($errors)) {
 			//echo "there are errors in the form";
