@@ -67,12 +67,12 @@
 								<div class="col-12">
 									<div class="row">
 										<div class="col-12">
-											<h5 class="display-4 text-center text-md-left wow fadeInDown" data-wow-delay="5s">
+											<h5 class="display-4 text-center text-md-left wow animate__animated animate__fadeInDown">
 												Reignite your sexual passion
 											</h5>
 										</div>
 										<div class="col-12">
-											<p class="text-center text-md-left">LuvBuddy is smart sex app that learns what you and your partner enjoy in bed to give you personalized, sex-related inspirations to satisfy each other even more</p>
+											<p class="text-center text-md-left wow animate__animated animate__fadeInLeft">LuvBuddy is smart sex app that learns what you and your partner enjoy in bed to give you personalized, sex-related inspirations to satisfy each other even more</p>
 										</div>
 									</div>
 								</div>
@@ -102,7 +102,7 @@
 				</div>
 				<div class="container">
 					<div class="drop-down-arrow text-center">
-						<a href="#features" class="">
+						<a href="#features" class="wow animate__animated animate__bounce animate__infinite">
 							<p class="mb-1">Learn more</p>
 							<div class="drop-down-image">
 								<i class="fas fa-angle-double-down"></i>
@@ -118,12 +118,12 @@
 						<div class="col-md-6">
 							<div class="row text-center text-md-left">
 								<div class="col-12 mb-4">
-									<h3>
+									<h3 class="wow animate__animated animate__fadeInUp">
 										Hello, Luvbuddy
 									</h3>
 								</div>
 								<div class="col-12 col-md-10">
-									<p>
+									<p class=" wow animate__animated animate__fadeInLeft">
 										LuvBuddy learns what you and your partner enjoy in bed and
 										suggests new positions, stimulation techniques and sex-related
 										ideas based on your liking. Use it next time to have even
@@ -135,7 +135,7 @@
 						<div class="col-md-6 text-center">
 							<img
 								src="./assets/images/Rectangle 24.svg"
-								class="img-fluid"
+								class="img-fluid wow animate__animated animate__zoomIn"
 								alt=""
 							/>
 						</div>
@@ -151,7 +151,7 @@
 								<div class="col-12">
 									<div class="row feature-1 my-4 text-center text-md-left">
 										<div class="col-12 mb-4">
-											<h3 class="">
+											<h3 class="wow animate__animated animate__zoomIn">
 												Smarter, Better Orgasms
 											</h3>
 										</div>
@@ -168,7 +168,7 @@
 								<div class="col-12">
 									<div class="feature-2 my-4">
 										<a href="">
-											<p class="">
+											<p class="wow animate__animated animate__zoomIn">
 												<img src="./assets/images/gift.svg" alt="" /
 												class="mr-3">Explore mutual desires
 											</p></a
@@ -176,7 +176,7 @@
 									</div>
 									<div class="feature-3 my-4">
 										<a href="">
-											<p class="">
+											<p class="wow animate__animated animate__zoomIn">
 												<img
 													src="./assets/images/bell.svg"
 													alt=""
@@ -187,7 +187,7 @@
 									</div>
 									<div class="feature-4 my-4">
 										<a href="">
-											<p class="">
+											<p class="wow animate__animated animate__zoomIn">
 												<img
 													src="./assets/images/edit.svg"
 													alt=""
@@ -198,7 +198,7 @@
 									</div>
 									<div class="feature-5 my-4">
 										<a href="">
-											<p class="">
+											<p class="wow animate__animated animate__zoomIn">
 												<img
 													src="./assets/images/message-circle.svg"
 													alt=""
@@ -260,8 +260,8 @@
 			          <div class="container">
 			              <div class="row d-flex flex-column align-items-center">
 			                  <div class="col-12 d-flex flex-column align-items-center text-center">
-			                      <h3 class="">Get notified</h3>
-			                      <p class="">
+			                      <h3 class="wow animate__animated animate__fadeInLeft">Get notified</h3>
+			                      <p class="wow animate__animated animate__fadeInRight">
 										Be the first to know when we launch Luvbuddy
 			                      </p>
 			                  </div>
@@ -271,7 +271,7 @@
 									<form action="index.php" method="POST">
 										<input
 											type="text" name="email" value="<?php echo htmlspecialchars($email) ?>"
-											class="form-control subscription-input px-4"
+											class="form-control subscription-input px-4 "
 											placeholder="Your email address here"
 										/>
 										 <div class="text-danger"><?php echo $errors['email']; ?></div>
@@ -318,9 +318,9 @@
 			crossorigin="anonymous"
 		></script>
 		<script src="./assets/script/swiper-bundle.min.js"></script>
-		<script src="./assets/script/script.js"></script>
 		<script src="./assets/script/preloader.js"></script>
 		<script src="./assets/script/wow.min.js"></script>
+		<script src="./assets/script/script.js"></script>
 	
 	</body>
 </html>

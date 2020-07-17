@@ -15,10 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
 		});
 });
 
-//wow.js
-// new WOW().init();
-
-//swiper-mobile
 
 
 //swiper
@@ -97,3 +93,6 @@ $('a[href*="#"]')
 			}
 		}
 	});
+
+//wow.js
+new WOW().init();
