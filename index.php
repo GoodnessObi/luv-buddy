@@ -211,22 +211,22 @@
 							<div class="swiper-container row">
 								<div class="swiper-wrapper text-center mb-4 pb-5" >
 									<div class="swiper-slide">
-										<img src="./assets/images/X - 2.svg" alt="" class="mx-auto img-fluid"/>
+										<img src="./assets/images/Home.png" alt="" class="mx-auto img-fluid"/>
 									</div>
 									<div class="swiper-slide">
-										<img src="./assets/images/X - 2.svg" alt="" class="mx-auto img-fluid"/>
+										<img src="./assets/images/Style-Open.png" alt="" class="mx-auto img-fluid"/>
 									</div>
 									<div class="swiper-slide">
-										<img src="./assets/images/X - 2.svg" alt="" class="mx-auto img-fluid"/>
+										<img src="./assets/images/Preference-Picker.png" alt="" class="mx-auto img-fluid"/>
 									</div>
 									<div class="swiper-slide">
-										<img src="./assets/images/X - 2.svg" alt="" class="mx-auto img-fluid"/>
+										<img src="./assets/images/Videos.png" alt="" class="mx-auto img-fluid"/>
 									</div>
 									<div class="swiper-slide">
-										<img src="./assets/images/X - 2.svg" alt="" class="mx-auto img-fluid"/>
+										<img src="./assets/images/Chat-Screen.png" alt="" class="mx-auto img-fluid"/>
 									</div>
 									<div class="swiper-slide">
-										<img src="./assets/images/X - 2.svg" alt="" class="mx-auto img-fluid"/>
+										<img src="./assets/images/Activity.png" alt="" class="mx-auto img-fluid"/>
 									</div>
 								</div>
 								<!-- Add Pagination -->
