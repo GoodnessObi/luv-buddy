@@ -29,6 +29,20 @@
 			// if (mysqli_errno() == 1062) {
 			//     print 'no way!';
 			// }
+//         $res = @mysql_query( “INSERT INTO Categories SET Category=’$cat’”);
+
+// if( $res ){
+
+// } else {
+// // An error occured
+
+// if( mysql_errno() == ‘code used for not unique’ )
+
+// echo “please enter a unique value”;
+
+// }
+
+// }
         
         if (array_filter($errors)) {
 			//echo "there are errors in the form";
@@ -44,7 +58,8 @@
 				header(('Location: subscribed.php'));
 			} else {
 				//error
-				echo 'query error: ' . mysqli_error($conn);
+				//echo 'query error: ' . mysqli_error($conn);
+				$errors['email'] = "email has already been registered";
 			}
 
 

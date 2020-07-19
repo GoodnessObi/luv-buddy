@@ -17,14 +17,31 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
         crossorigin="anonymous"
     />
+ <!--    <link rel="stylesheet" href="./assets/css/preloader.css"> -->
     <link rel="stylesheet" href="./assets/css/subscribed.css">
 </head>
 <body>
-    <div class="container">
+    <section class="preloader" id="preloader">
+        <div class="multi-spinner-container">
+            <div class="multi-spinner">
+                <div class="multi-spinner">
+                    <div class="multi-spinner">
+                    <div class="multi-spinner">
+                            <div class="multi-spinner">
+                                <div class="multi-spinner"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container" id="subscribe-page">
         <!-- <div class="subscribed-container"></div> -->
         <div class="subscribed text-center">
             <h5 class="display-4">Thank you for subscribing</h5>
-            <p class="my-4">Except an email from us soon</p>
+            <p class="my-4">Expect an email from us soon</p>
             <button type="submit" name="" value="" href= "index.php" class="btn notify-button "><a href="index.php" class="py-2 px-5 mt-4">Return to Homepage</a></button>
         </div>
     </div>
@@ -47,5 +64,6 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"
     ></script>
+  <!--   <script src="./assets/script/loadsubscribepage.js"></script> -->
 </body>
 </html>
