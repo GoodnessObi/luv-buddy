@@ -10,7 +10,7 @@
 
     $email = "";
     $errors = array('email' => '');
-    $success = "";
+    $success = "success";
 
 
     if (isset($_POST['submit'])) {
@@ -40,8 +40,8 @@
 
             if (mysqli_query($conn, $sql)) {
 				//success
-                echo "email registration was successful";
-				header(('Location: index.php'));
+                // echo "email registration was successful";
+				header(('Location: subscribed.php'));
 			} else {
 				//error
 				echo 'query error: ' . mysqli_error($conn);
