@@ -15,9 +15,30 @@ document.addEventListener('DOMContentLoaded', () => {
 		});
 });
 
+//wow.js
+// new WOW().init();
 
+//swiper-mobile
+// var swiper = new Swiper('.swiper-container', {
+// 	centeredSlides: true,
+// 	grabCursor: true,
+// 	slidesPerView: 'auto',
+// 	loop: true,
+// 	navigation: {
+// 		nextEl: '.swiper-button-next',
+// 		prevEl: '.swiper-button-prev',
+// 	},
+// 	autoplay: {
+// 		delay: 2500,
+// 		disableOnInteraction: false,
+// 	},
+// 	pagination: {
+// 		el: '.swiper-pagination',
+// 		clickable: true,
+// 	},
+// });
 
-//swiper
+// Swiper
 var swiper = new Swiper('.swiper-container', {
 	effect: 'coverflow',
 	grabCursor: true,
@@ -34,7 +55,7 @@ var swiper = new Swiper('.swiper-container', {
 	centeredSlides: true,
 	autoplay: {
 		delay: 5000,
-		disableOnInteraction: true,
+		disableOnInteraction: false,
 	},
 	loop: true,
 	freeMode: true,
@@ -93,6 +114,3 @@ $('a[href*="#"]')
 			}
 		}
 	});
-
-//wow.js
-new WOW().init();

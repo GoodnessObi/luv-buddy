@@ -116,12 +116,18 @@ html {
 
 .swiper-container {
 	width: 100%;
+	/* margin-left: auto;
+	margin-right: auto; */
 }
 
 .swiper-slide {
 	background-position: center;
 	background-size: cover;
 	width: fit-content;
+}
+
+.swiper-pagination-bullet {
+
 }
 
 /* countdown-timer */
@@ -136,6 +142,18 @@ html {
 	display: flex;
 	justify-content: center;
 }
+
+/* #flipdown .rotor-group {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	/* display: flex;
+	justify-content: center; 
+} */
+
+/* #flipdown .rotor {
+	width: 100%;
+} */
 
 /* get-notified */
 .notify-me {
@@ -203,11 +221,11 @@ html {
 		transform: none;
 	}
 	50% {
-		opacity: 0.5;
+		opacity: 0.8;
 		transform: scale(0.8);
 	}
 	100% {
-		opacity: 1.5;
+		opacity: 1.1;
 		transform: none;
 	}
 }

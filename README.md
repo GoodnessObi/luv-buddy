@@ -1,1 +1,1 @@
-# luv-buddy
+# LuvBuddy
